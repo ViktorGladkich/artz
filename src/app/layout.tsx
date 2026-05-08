@@ -26,7 +26,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-zinc-50 text-zinc-900 selection:bg-blue-500 selection:text-white`}
+        className={`font-sans antialiased bg-zinc-50 text-zinc-900 selection:bg-blue-500 selection:text-white`}
       >
         <SmoothScroller>
           {children}
